@@ -17,6 +17,7 @@ class fsource{
   
   render(){
     this.t += this.ts;
+    this.y += this.vy * this.ts;
     this.x += this.vx * this.ts
     if(this.lastoccursion + this.f <= this.t){
       this.makeNewWave();
