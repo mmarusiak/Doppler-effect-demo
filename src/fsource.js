@@ -19,7 +19,7 @@ class fsource{
     this.t += this.ts;
     this.y += this.vy * this.ts;
     this.x += this.vx * this.ts
-    if(this.lastoccursion + this.f <= this.t){
+    if(this.lastoccursion + (1/this.f) <= this.t){
       this.makeNewWave();
     }
     for (let i = 0; i < this.circles.length; i++){

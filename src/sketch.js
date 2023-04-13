@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
   getvalues();
-  background(40);
+  background(33,33,33);
   frequencysource.render();
   frequencyobserver.render();
   
