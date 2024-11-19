@@ -1,6 +1,6 @@
 let sizeX = window.innerWidth;
 let sizeY = window.innerHeight;
-let fontSize = sizeX*sizeY/100000;
+let fontSize = Math.max(sizeX*sizeY/100000,12);
 const frequencysource = new fsource(sizeX/2, sizeY/2, 2, 50, 30, 10);
 const frequencyobserver = new fobserver (sizeX/3*2, sizeY/2, 10, 0);
 let wavefslider, wavevslider, ovxslider, ovyslider, svxslider, svyslider;
