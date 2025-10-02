@@ -12,3 +12,5 @@ simple p5js doppler effect demo for one of my classes.
 You can test it [here](https://mmarusiak.github.io/Projects/Doppler-effect/src/doppler.html)
 
 Built using p5js.
+
+[Article](https://mmarusiak.github.io/Posts/doppler-effect.html)
